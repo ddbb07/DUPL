@@ -4,7 +4,7 @@ version = "0.1.1"
 description = "Script for running python linters"
 readme = "README.md"
 requires-python = ">=3.14"
-dependencies = ["mypy>=2.3.1", "ruff>=0.16.6"]
+dependencies = ["mypy>=2.3.1", "pyright>=1.1.406", "ruff>=0.16.6"]
 
 [project.scripts]
 dupl = "dupl.cli:main"

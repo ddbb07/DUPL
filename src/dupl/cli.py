@@ -6,12 +6,14 @@ CHECKS: dict[str, list[str]] = {
     "ruff format": ["uv", "run", "ruff", "format", "--check", "."],
     "ruff check": ["uv", "run", "ruff", "check", "."],
     "mypy": ["uv", "run", "mypy", "."],
+    "pyright": ["uv", "run", "pyright", "."],
 }
 
 FIX_CHECKS: dict[str, list[str]] = {
     "ruff check": ["uv", "run", "ruff", "check", "--fix", "."],
     "ruff format": ["uv", "run", "ruff", "format", "."],
     "mypy": ["uv", "run", "mypy", "."],
+    "pyright": ["uv", "run", "pyright", "."],
 }
 
 
